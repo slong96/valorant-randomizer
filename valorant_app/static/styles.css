@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 20px;
+}
+p {
+  font-size: 12px;
+}
+body {
+  background-color: rgb(248, 248, 248);
+}
+
+.hide{
+  display: none;
+}
+
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-container {
+  background-color: rgb(223, 231, 255);
+  border-radius: 5px;
+  border: 1px solid rgb(178, 197, 255);
+  margin: 50px;
+  padding: 10px;
+}
+
+#map-img {
+  width: 500px;
+}
+
+.player-container {
+  margin-top: 20px;
+}
+
+
+.player-item {
+  border: 1px solid rgb(211, 211, 211);
+  background-color: aliceblue;
+  opacity: 0.9;
+  border-radius: 10px;
+  display: flex;
+  max-width: 530px;
+  height: 150px;
+  padding: 5px;
+  margin: 2px;
+}
+
+.default-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.button-container {
+  margin: 3px;
+}
+
+.description-item {
+  height: 80px;
+  width: 350px;
+}
+
+.error-page-h1 {
+  size: 50px;
+}
