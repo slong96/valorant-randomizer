@@ -5,8 +5,10 @@ certifi==2024.7.4
 charset-normalizer==3.3.2
 Django==5.0.6
 django-storages==1.14.4
+gunicorn==22.0.0
 idna==3.7
 jmespath==1.0.1
+packaging==24.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 requests==2.32.3
